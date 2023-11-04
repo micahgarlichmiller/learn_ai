@@ -1,11 +1,10 @@
 # Name:
-# Description: a good start for python work with AI
+# Description:
 
-import os
-# dotenv (below) gets env from ~/.env
-# you must load the key before the import openai
+# dotenv (below) gets env from ~/.env (load b4 import openai)
 from dotenv import load_dotenv
 load_dotenv()
+import os
 import openai
 
 #####
