@@ -1,0 +1,11 @@
+# Name:
+# Description: a good start for python work with AI
+
+import os
+# dotenv (below) gets env from ~/.env
+# you must load the key before the import openai
+from dotenv import load_dotenv
+load_dotenv()
+import openai
+
+#####
